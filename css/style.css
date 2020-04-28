@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    margin: 0;
+}
+
+/* Header */
+.inline-block {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.logo {
+    width: 10%; 
+    padding: 1%;
+    text-align: center;
+}
+
+header {
+    height: 144px;
+}
+nav {
+    width: 70%;
+    padding: 1% 1% 1% 0;
+    font-family: 'K2D', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #0A2940;
+}
+
+.linkedin {
+    width: 10%;
+    padding: 1% 1% 3% 1%;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    margin-right: 25px;
+    margin-left: 0px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li { 
+    display: inline-block;
+    margin-right: 75px;
+}
+
+/* Hero */
+.hero {
+    /*height: 771px;*/
+    max-width: 1920px;
+    background-image: url("../images/hero_background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 5% 5% 5% 5%; */
+    max-height: 765px;
+    
+}
+
+.hero-left h1 {
+    font-family: 'K2D', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    color: #FFFF10;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.hero-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    line-height: 1.6;
+    padding-bottom: 0;
+    
+}
+.hero-right {
+    padding: 5%;
+    /* position: relative;
+    float: right;
+    text-align: center; */
+}
+
+.hero-right img {
+    width: 80%;
+}
+
+/* Side menu */
+aside {
+    width: 15%;
+    height: 2500px;
+    float: left;
+}
+
+#shortcutMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: #245274;
+    margin: 25px 25px;
+    border-radius: 15px;
+    position: sticky;
+    top: 20px;
+    box-shadow: -5px -5px #33A0D3 ;
+}
+
+#shortcutMenu h3 {
+    margin: 0;
+    color: white;
+    font-family: 'K2D', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 0 0 20px;
+
+}
+
+#shortcutMenu a {
+    padding: 5px 25px 8px 40px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#shortcutMenu a:hover {
+    font-weight: bold;
+    color: #FFFF10; 
+} 
+
+/* My Skills section */
+.mySkills {
+    width: 83%;
+    float: right;
+}
+
+.mySkills h1 {
+    font-family: 'K2D', sans-serif;
+    font-size: 56px;
+    color: #245274;
+}
+
+.mySkills p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.flexContainer {
+    display: flex;
+    
+}
+
+.leftSkills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    /* height: 213px; */
+    height: auto;
+    margin: 25px 0;
+}
+
+.skillWording {
+    padding: 0 35px 0 25px;
+}
+
+.mySkills h3 {
+    font-family: 'K2D', sans-serif;
+    font-size: 32px;
+    color: #33A0D3;
+    margin: 0;
+}
+
+.resumeButton {
+    float: right;
+    margin-right: 35px;
+    margin-bottom: 20px;;
+    background-color: #33A0D3;
+    color: white;
+    font-family: 'K2D', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 27px;
+    cursor: pointer;
+}
+
+.resumeButton:hover {
+    color: #FFFF10;
+}
+
+/* My Work section */
+.myWork {
+    width: 83%;
+    float: right;
+}
+
+.myWork h1 {
+    font-family: 'K2D', sans-serif;
+    font-size: 56px;
+    color: #245274;
+}
+
+.myWork h3{
+    font-family: 'K2D', sans-serif;
+    font-size: 32px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.myWork p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 5px 0 20px 0;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "forestService  safeRide"
+        "getGreen meetEat"
+    ;
+}
+
+.projectTile {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+    height: 480px;
+    width: 552px;
+}
+
+#forestService {
+    grid-area: forestService;
+    background-image: url("../images/tile_background.png");
+}
+
+#safeRide {
+    grid-area: safeRide;
+    background-image: url("../images/tile_background.png");
+}
+
+#getGreen {
+    grid-area: getGreen;
+    background-image: url("../images/tile_background.png");
+}
+
+#meetEat {
+    grid-area: meetEat;
+    background-image: url("../images/tile_background.png");
+}
+
+#FSLogo {
+    margin: auto;
+    padding-bottom: 27px;
+}
+
+#SRLogo {
+    margin: auto;
+    padding-bottom: 110px;
+}
+
+#GGLogo {
+    margin: auto;
+    padding-bottom: 55px;
+}
+
+#MELogo {
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.tileWording {
+    padding: 0 0 20px 40px;
+}
+
+/* Contact Me*/
+.contactMe {
+    display: flex;
+    float: right;
+    height: 500px;
+    width: 83%;
+}
+
+.contactMe h1 {
+    font-family: 'K2D', sans-serif;
+    font-size: 56px;
+    color: #245274;
+}
+
+/* Footer */
+.blueFooter {
+    background-image: url(../images/footer_background.png);
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.email {
+    font-family: 'K2D', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 14px 96px 13px 0;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+
+.email img {
+    padding: 10px;
+    /* display: inline */
+}
+
+.email p {
+    /* display: inline-block; */
+    
+}
+
+#linkedin-footer { 
+    padding: 29px 0 29px 0;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 1200px){
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-left {
+        width: 90%;
+        padding-bottom: 0;
+    }  
+    
+
+    
+    #shortcutMenu{
+        display: none;
+    }
+    .mySkills {
+        float: none;
+        margin-left: 5%;
+    }
+    
+    .myWork {
+        float: none;
+        margin-left: 5%;
+    }
+
+    .contactMe {
+        float: none;
+        margin-left: 5%;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+            "forestService"
+            "safeRide"
+            "getGreen"
+            "meetEat";
+    }
+}
+
+@media only screen and (max-width: 975px){
+    
+    ul {
+        margin-right: 15px;
+        margin-left: 50px;
+    }
+    nav {
+        font-size: 20px;
+    }
+    li {
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    aside {
+        display: none;
+    }
+
+
+}
