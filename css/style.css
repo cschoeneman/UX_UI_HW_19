@@ -255,6 +255,15 @@ aside {
     cursor: pointer;
 }
 
+.uiButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.uiButton a:hover {
+    color: yellow;
+}
+
 .uiButton:hover {
     color: #FFFF10;
 }
@@ -272,8 +281,14 @@ aside {
     background-color: rgba(0,0,0,0.4); 
 }
 
+#downloadBtn {
+    margin-right: 20px;
+    position: sticky;
+    top: 20px;
+}
+
 /*Resume Styling*/
-#page_1 {position:relative; overflow: hidden;margin: 66px 0px 0px 178px;padding: 0px;border: none; width: 768px;}
+#page_1 {position:relative; overflow: hidden;margin: 66px 0px 0px 90px;padding: 0px;border: none; width: 768px;}
 
 #page_1 #p1dimg1 {position:absolute;top:179px;left:0px;z-index:-1;width:720px;height:2px;font-size: 1px;line-height:nHeight;}
 #page_1 #p1dimg1 #p1img1 {width:720px;height:2px;}
@@ -281,7 +296,7 @@ aside {
 
 
 
-#page_2 {position:relative; overflow: hidden;margin: 30px 0px 48px 178px;padding: 0px;border: none;width: 768px;}
+#page_2 {position:relative; overflow: hidden;margin: 30px 0px 48px 90px;padding: 0px;border: none;width: 768px;}
 #page_2 #id2_1 {border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 768px;overflow: hidden;}
 #page_2 #id2_2 {border:none;margin: 60px 0px 0px 356px;padding: 0px;border:none;width: 412px;overflow: hidden;}
 
@@ -543,6 +558,11 @@ aside {
 
 #contactImg {
     margin: 25px auto;
+    
+}
+
+#contactImg img {
+    border-radius: 10px;
 }
 
 .contactForm {
@@ -559,7 +579,10 @@ aside {
 }
 
 #name {
-    line-height: 2em;
+    line-height: 2.5em;
+    border-radius: 3px;
+    border-color: #0A2940;
+    border-width: thin;
 }
 
 #email {
