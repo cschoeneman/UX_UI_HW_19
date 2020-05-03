@@ -150,9 +150,6 @@ li {
 }
 
 
-
-
-
 /* Side menu */
 aside {
     width: 15%;
@@ -208,7 +205,7 @@ aside {
     /* background-color: yellow; */
 }
 
-.mySkills p {
+.description {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
@@ -276,7 +273,7 @@ aside {
 }
 
 /*Resume Styling*/
-#page_1 {position:relative; overflow: hidden;margin: 66px 0px 48px 178px;padding: 0px;border: none; width: 768px;}
+#page_1 {position:relative; overflow: hidden;margin: 66px 0px 0px 178px;padding: 0px;border: none; width: 768px;}
 
 #page_1 #p1dimg1 {position:absolute;top:179px;left:0px;z-index:-1;width:720px;height:2px;font-size: 1px;line-height:nHeight;}
 #page_1 #p1dimg1 #p1img1 {width:720px;height:2px;}
@@ -284,7 +281,7 @@ aside {
 
 
 
-#page_2 {position:relative; overflow: hidden;margin: 47px 0px 48px 178px;padding: 0px;border: none;width: 768px;}
+#page_2 {position:relative; overflow: hidden;margin: 30px 0px 48px 178px;padding: 0px;border: none;width: 768px;}
 #page_2 #id2_1 {border:none;margin: 0px 0px 0px 0px;padding: 0px;border:none;width: 768px;overflow: hidden;}
 #page_2 #id2_2 {border:none;margin: 60px 0px 0px 356px;padding: 0px;border:none;width: 412px;overflow: hidden;}
 
@@ -294,26 +291,26 @@ aside {
 
 
 
-.ft0{font: bold 21px 'Verdana';line-height: 25px;}
-.ft1{font: 13px 'Times New Roman';line-height: 17px;}
-.ft2{font: 13px 'Times New Roman';line-height: 16px;}
-.ft3{font: bold 13px 'Verdana';line-height: 16px;}
-.ft4{font: bold 13px 'Times New Roman';line-height: 15px;}
-.ft5{font: italic 13px 'Times New Roman';line-height: 15px;}
-.ft6{font: 13px 'Times New Roman';line-height: 15px;}
-.ft7{font: 13px 'Times New Roman';text-decoration: underline;line-height: 15px;}
-.ft8{font: 13px 'Times New Roman';line-height: 16px;}
-.ft9{font: 13px 'Times New Roman';margin-left: 16px;line-height: 16px;}
-.ft10{font: 13px 'Times New Roman';margin-left: 16px;line-height: 15px;}
+.ft0{font: bold 28px 'K2D';line-height: 25px;}
+.ft1{font: 13px 'Open Sans';line-height: 17px;}
+.ft2{font: 13px 'Open Sans';line-height: 16px;}
+.ft3{font: bold 20px 'K2D';line-height: 16px;}
+.ft4{font: bold 13px 'Open Sans';line-height: 15px;}
+.ft5{font: italic 13px 'Open Sans';line-height: 15px;}
+.ft6{font: 13px 'Open Sans';line-height: 15px;}
+.ft7{font: 13px 'Open Sans';text-decoration: underline;line-height: 15px;}
+.ft8{font: 13px 'Open Sans';line-height: 16px;}
+.ft9{font: 13px 'Open Sans';margin-left: 16px;line-height: 16px;}
+.ft10{font: 13px 'Open Sans';margin-left: 16px;line-height: 15px;}
 .ft11{font: 12px 'Verdana';color: #999999;line-height: 14px;}
-.ft12{font: 1px 'Times New Roman';line-height: 1px;}
-.ft13{font: bold 13px 'Arial';line-height: 16px;}
-.ft14{font: bold 13px 'Times New Roman';line-height: 18px;}
-.ft15{font: 13px 'Times New Roman';line-height: 19px;}
-.ft16{font: 13px 'Times New Roman';line-height: 18px;}
-.ft17{font: bold 13px 'Times New Roman';line-height: 17px;}
-.ft18{font: 13px 'Times New Roman';line-height: 18px;}
-.ft19{font: italic 13px 'Times New Roman';line-height: 16px;}
+.ft12{font: 1px 'Open Sans';line-height: 1px;}
+.ft13{font: bold 13px 'Open Sans';line-height: 16px;}
+.ft14{font: bold 13px 'Open Sans';line-height: 18px;}
+.ft15{font: 13px 'Open Sans';line-height: 19px;}
+.ft16{font: 13px 'Open Sans';line-height: 18px;}
+.ft17{font: bold 13px 'Open Sans';line-height: 17px;}
+.ft18{font: 13px 'Open Sans';line-height: 18px;}
+.ft19{font: italic 13px 'Open Sans';line-height: 16px;}
 
 .p0{text-align: left;
     /* padding-left: 53px; */
@@ -325,7 +322,7 @@ aside {
     /* text-indent: 17px; */
 }
 .p2{text-align: left;padding-right: 53px;margin-top: 22px;margin-bottom: 0px; line-height: 1.2;}
-.p3{text-align: left;margin-top: 16px;margin-bottom: 0px;}
+.p3{text-align: left;margin-top: 30px;margin-bottom: 10px;}
 .p4{text-align: left;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
 .p5{text-align: right;margin-top: 0px;margin-bottom: 0px;white-space: nowrap;}
 .p6{text-align: left;margin-top: 10px;margin-bottom: 0px;}
@@ -384,7 +381,7 @@ aside {
 /* Modal Content/Box */
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -392,7 +389,7 @@ aside {
   
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: #888;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -400,7 +397,7 @@ aside {
   
 .close:hover,
 .close:focus {
-    color: black;
+    color: #33A0D3;
     text-decoration: none;
     cursor: pointer;
 }
