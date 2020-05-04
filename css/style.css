@@ -75,9 +75,9 @@ li {
     float: left;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 45%;
     padding: 2% 0;
-    margin-left: 70px;
+    margin-left: 50px;
     max-height: 765px; 
     flex-shrink: 1;
     /* background-color: khaki; */
@@ -282,7 +282,7 @@ aside {
 }
 
 #downloadBtn {
-    margin-right: 20px;
+    margin-right: 2`0px;
     position: sticky;
     top: 20px;
 }
