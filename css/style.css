@@ -41,6 +41,12 @@ nav {
     text-align: center;
 }
 
+.linkedin img:hover {
+    
+    width: 52.11px;
+    height: 50.4px;
+}
+
 ul {
     width: 100%;
     margin-right: 25px;
@@ -578,16 +584,14 @@ aside {
     background-color: #1281B5;
 }
 
-#name {
+#name, #email, #message {
     line-height: 2.5em;
     border-radius: 3px;
     border-color: #0A2940;
     border-width: thin;
+    font-size: 14px;
 }
 
-#email {
-    line-height: 2em;
-}
 
 /* Footer */
 .blueFooter {
@@ -622,6 +626,7 @@ aside {
 
 .email a:hover {
     font-weight: bold;
+    color: #FFFF10;
 }
 
 
